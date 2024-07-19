@@ -185,7 +185,7 @@ const Navbar = () => {
               Online Status: <b>{onlineStatus ? "Online" : "Offline"}</b>
             </li>
             <li className="ml-5 text-red-600">
-              User: <b>{data.loggedInUser}</b>
+              User: <b>{data.loggedInUser}...</b>
             </li>
           </ul>
         </div>
