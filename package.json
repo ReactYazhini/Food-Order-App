@@ -17,9 +17,9 @@
   "author": "yazhini",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YazhiniStudy/Forstudy/issues"
+    "url": "https://github.com/ReactYazhini/Food-Order-App"
   },
-  "homepage": "https://github.com/YazhiniStudy/Forstudy#readme",
+  "homepage": "https://github.com/ReactYazhini/Food-Order-App",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "parcel": "^2.12.0",
