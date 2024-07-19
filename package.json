@@ -2,11 +2,6 @@
   "name": "forstudy",
   "version": "1.0.0",
   "description": "MyReact",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YazhiniStudy/Forstudy.git"
@@ -19,7 +14,13 @@
   "bugs": {
     "url": "https://github.com/ReactYazhini/Food-Order-App"
   },
-  "homepage": "https://github.com/ReactYazhini/Food-Order-App",
+  "homepage": "https://ReactYazhini.github.io/Food-Order-App",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "parcel": "^2.12.0",
